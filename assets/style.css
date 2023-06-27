@@ -42,6 +42,8 @@ header {
   color: black;
 }
 
+
+
 /* Main */
 
 h2 {
@@ -52,7 +54,23 @@ section {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+/* About Me */
+#about-me {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
 
+#about-me img{
+  border: solid red 5px;
+  opacity:.1;
+}
+
+#about-me p{
+  margin-left: 20px;
+  font-size: 150%;
+}
 /* Works */
 
 .subwork {
@@ -103,7 +121,7 @@ section {
 
 .card:hover .textbox,
 .subcard:hover .textbox {
-  opacity: 100%;
+  opacity: 1;
 
 }
 
@@ -128,10 +146,13 @@ section {
 
 .contact li {
   margin: 2%;
+  font-size: 150%;
+  color: aquamarine;
 }
 
 .contact a {
   text-decoration: none;
+  color: aquamarine;
 }
 
 
