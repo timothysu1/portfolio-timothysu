@@ -1,53 +1,67 @@
 * {
-    margin: 0;
-    padding: 0;
-    /* outline: red dashed 1px; */
+  margin: 0;
+  padding: 0;
 }
 
-header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 2%;
-    background-color: lightskyblue ;
-    color: black;
-}
-
+/* Header */
 h1 {
-    font-size: 250%;
-}
-
-nav {
-    display: flex;
-   /*  justify-content: space-between; */
-    justify-content: right;
+  font-size: 250%;
+  color: aliceblue;
 }
 
 nav ul {
-    display: flex;
+  display: flex;
   /*   justify-content: space-between;
     min-width: 500px; */
 }
 
 nav a {
-    font-weight: bold;
-    font-size: 200%;
-    text-decoration: none;
-    margin: 0px  40px 0px 40px;
-    color:maroon;
+  font-weight: bold;
+  font-size: 200%;
+  text-decoration: none;
+  margin: 0px 40px 0px 40px;
+  color: maroon;
 }
 
 nav a:hover {
-    color: aliceblue;
+  color: aliceblue;
 }
 
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2%;
+  background-color: lightskyblue;
+  color: black;
+}
+
+/* Works (main) */
+.card img {
+  display: block;
+  width: 1000px;
+}
+
+
+/* Contact Info */
+.contact ul {
+  display: flex;
+  justify-content: left;
+}
+
+.contact li {
+  margin: 2%;
+}
+/* Footer */
 footer {
-    background-color: lightcoral;
+  background-color: lightcoral;
+  height: 50px;
+  text-align: center;
 }
 
-
+/* Media */
 @media screen and (max-width: 768px) {
-    header {
-        flex-direction: column;
-    }
+  header {
+    flex-direction: column;
+  }
 }
