@@ -9,8 +9,13 @@ h1 {
   color: aliceblue;
 }
 
+
+nav{
+  width: 50%;
+}
 nav ul {
   display: flex;
+  
   /*   justify-content: space-between;
     min-width: 500px; */
 }
@@ -19,8 +24,9 @@ nav a {
   font-weight: bold;
   font-size: 200%;
   text-decoration: none;
-  margin: 0px 40px 0px 40px;
+  margin: 0px 20% 0px 20%;
   color: maroon;
+  border: red dashed 1px;
 }
 
 nav a:hover {
@@ -36,9 +42,20 @@ header {
   color: black;
 }
 
-/* Works (main) */
+/* Main */
 
-.subwork{
+h2 {
+  font-size: 200%;
+}
+
+section {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Works */
+
+.subwork {
   display: flex;
   width: 50%;
   margin-left: auto;
@@ -50,23 +67,57 @@ header {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
+
 }
 
 .subcard {
   flex-wrap: wrap;
   position: relative;
   margin: 5px;
+
 }
 
 .card img,
 .subcard img {
+  opacity: 1;
   width: 100%;
   transition: .5s ease;
   backface-visibility: hidden;
 }
 
-.card:hover {
+.textbox {
+  transition: .5 ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.card:hover,
+.subcard:hover {
   opacity: 0.3;
+}
+
+.card:hover .textbox,
+.subcard:hover .textbox {
+  opacity: 100%;
+
+}
+
+
+
+.textbox p {
+  background-color: skyblue;
+  color: black;
+  padding: 10px 20px;
+  font-size: 150%;
+}
+
+.textbox a {
+  text-decoration: none;
 }
 
 /* Contact Info */
@@ -78,17 +129,21 @@ header {
 .contact li {
   margin: 2%;
 }
+
 .contact a {
- text-decoration: none;    
-  }
- 
+  text-decoration: none;
+}
+
 
 /* Footer */
 footer {
   background-color: lightcoral;
   height: 50px;
   text-align: center;
+
 }
+
+h3 {}
 
 /* Media */
 @media screen and (max-width: 768px) {
@@ -96,17 +151,22 @@ footer {
     flex-direction: column;
   }
 
-  
-  
+
+
 }
 
-@media screen and (max-width: 576) {
+@media screen and (max-width: 576px) {
 
+  
+  nav {
+    display: none;
+  }
 
-  .contact ul{
+  .contact ul {
     flex-direction: column;
   }
-  footer{
-    display: hidden;
+
+  footer {
+    display: none;
   }
 }
