@@ -10,7 +10,7 @@ This webpage serves as a portfolio for the work that I do in the UC Berkeley cod
 * [Git](https://git-scm.com/)
 ## Deployed Link
 
-* [See Live Site](#)
+* [See Live Site](https://timothysu1.github.io/portfolio-timothysu/)
 
 ## Learning Points 
 * Various CSS tools to give HTML files style
@@ -28,6 +28,8 @@ This webpage serves as a portfolio for the work that I do in the UC Berkeley cod
 ## Credits
 
 Placeholder Image Source: https://pixabay.com/users/drabbitod-23650072/
+
+W3 Schools: Image Hover Overlay: https://www.w3schools.com/howto/howto_css_image_overlay.asp
 ## License
 
 Please refer to license in the repo. 
