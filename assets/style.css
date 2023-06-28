@@ -82,7 +82,7 @@ section {
 #about-me p {
   font-size: 150%;
   text-align: center;
-  
+
 }
 
 /* Works */
@@ -203,7 +203,6 @@ footer {
 
   .me img {
     width: 300px;
-
   }
 
   .card {
@@ -212,35 +211,39 @@ footer {
 
   .subwork {
     width: 100%;
-
-
   }
 
-  .subcard {
-    width: 100%;
-  }
+  .textbox p {
+    font-size: 130%;
+    padding: 10px 10px;
 
 }
-  @media screen and (max-width: 576px) {
+
+@media screen and (max-width: 576px) {
 
 
-    nav {
-      display: none;
-    }
-
-    .me img {
-      width: 200px;
-    }
-
-    #about-me p {
-      margin-left: 20px;
-      font-size: 100%;
-      
-    }
-
-    footer {
-      display: none;
-    }
+  nav {
+    display: none;
   }
 
+  .me img {
+    width: 200px;
+  }
 
+  #about-me p {
+    margin-left: 20px;
+    font-size: 100%;
+
+  }
+
+  .textbox p {
+    background-color: skyblue;
+    color: black;
+    
+    font-size: 100%;
+  }
+
+  footer {
+    display: none;
+  }
+}
