@@ -14,7 +14,7 @@ This webpage serves as a portfolio for the work that I do in the UC Berkeley cod
 
 ## Usage
 
-The site serves as a destination for the work created during the coding bootcamp. Important projects can be found on the works section and clicking on the corresponding image will redirect the user to the project. The navigation bar on the top of the page sends the user to the respective portion of the page.
+The site serves as a destination for the work created during the coding bootcamp. Important projects can be found on the works section and clicking on the corresponding image will redirect the user to the project. The navigation bar on the top of the page sends the user to the respective portion of the page. The contact section also will redirect the user to the corresponding contact method.
 
 ## Learning Points 
 * Various CSS tools to give HTML files style

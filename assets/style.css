@@ -36,7 +36,6 @@ nav a {
   text-decoration: none;
   margin: 0px 20px 0px 20px;
   color: coral;
-  /* border: red dashed 1px; */
 }
 
 nav a:hover {
@@ -52,15 +51,12 @@ header {
   color: black;
 }
 
-
-
 /* Main */
 
 h2 {
   font-size: 200%;
   position: relative;
   margin-left: 20px;
-
 }
 
 section {
@@ -77,13 +73,11 @@ section {
   border: solid lightskyblue 5px;
   border-radius: 4px;
   margin-bottom: 10px;
-
 }
 
 #about-me p {
   font-size: 150%;
   text-align: center;
-
 }
 
 /* Works */
@@ -100,8 +94,6 @@ section {
   width: 49%;
   margin-left: auto;
   margin-right: auto;
-
-
 }
 
 .subcard {
@@ -109,14 +101,13 @@ section {
   position: relative;
   margin: 5px;
   width: 50%;
-
 }
 
 .card img,
 .subcard img {
   opacity: 1;
   width: 100%;
-  display: block ;
+  display: block;
   backface-visibility: hidden;
   border-radius: 4px;
 }
@@ -140,9 +131,9 @@ section {
 .card:hover .textbox,
 .subcard:hover .textbox {
   opacity: 1;
- 
 }
 
+/* added hover effect over pictures because it look cool */
 
 
 .textbox p {
@@ -183,17 +174,12 @@ footer {
   background-color: coral;
   height: 50px;
   text-align: center;
-
-
 }
-
-
 
 /* Media */
 @media screen and (max-width: 768px) {
   header {
     flex-direction: column;
-    
   }
 
   nav ul {
@@ -203,10 +189,6 @@ footer {
 
   nav a {
     font-size: 140%;
-  }
-
-  .contact ul {
-    flex-direction: column;
   }
 
   .me img {
@@ -226,10 +208,13 @@ footer {
     padding: 10px 10px;
   }
 
+  .contact ul {
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 576px) {
-
+  /* removed nav and footer since they got in the way */
 
   nav {
     display: none;
@@ -242,13 +227,11 @@ footer {
   #about-me p {
     margin-left: 20px;
     font-size: 100%;
-
   }
 
   .textbox p {
     background-color: skyblue;
     color: black;
-    
     font-size: 100%;
   }
 
