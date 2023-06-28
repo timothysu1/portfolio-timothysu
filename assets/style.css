@@ -181,7 +181,7 @@ footer {
 
 }
 
-h3 {}
+
 
 /* Media */
 @media screen and (max-width: 768px) {
@@ -220,7 +220,7 @@ h3 {}
     width: 100%;
   }
 
-
+}
   @media screen and (max-width: 576px) {
 
 
@@ -242,3 +242,5 @@ h3 {}
       display: none;
     }
   }
+
+
