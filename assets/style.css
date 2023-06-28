@@ -74,7 +74,7 @@ section {
   margin-left: auto;
   margin-right: auto;
   border: solid lightskyblue 5px;
-  border-radius: 3px;
+  border-radius: 4px;
   margin-bottom: 10px;
 
 }
@@ -115,30 +115,31 @@ section {
 .subcard img {
   opacity: 1;
   width: 100%;
-  transition: .5s ease;
+  display: block ;
   backface-visibility: hidden;
+  border-radius: 4px;
 }
 
 .textbox {
-  transition: .5 ease;
+  transition: .5s ease;
   opacity: 0;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
 
 .card:hover,
 .subcard:hover {
   opacity: 0.3;
+  transition: .5s ease;
 }
 
 .card:hover .textbox,
 .subcard:hover .textbox {
   opacity: 1;
-
+ 
 }
 
 
@@ -148,6 +149,7 @@ section {
   color: black;
   padding: 10px 20px;
   font-size: 150%;
+  border-radius: 4px;
 }
 
 .textbox a {
@@ -171,6 +173,9 @@ section {
   color: coral;
 }
 
+.contact a:hover {
+  color: aliceblue;
+}
 
 /* Footer */
 footer {
@@ -216,6 +221,7 @@ footer {
   .textbox p {
     font-size: 130%;
     padding: 10px 10px;
+  }
 
 }
 
